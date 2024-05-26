@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Serif", Arial, sans-serif;
+}
+
+main {
+  display: flex;
+  gap: 0px;
+  justify-content: center;
+  background-color: rgb(222, 230, 230);
+}
+
+.cabeçalho {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  background-color: rgb(27, 26, 26);
+}
+
+.nome {
+  color: white;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 32px;
+}
+
+.logo {
+  width: 300px;
+  border-radius: 20px;
+}
+
+.dados {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  width: 300px;
+}
+
+.data {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.d {
+  display: flex;
+  width: 17.3px;
+  min-width: 17.3px;
+}
+
+.localizacao {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.l {
+  display: flex;
+  width: 17.3px;
+  min-width: 17.3px;
+}
+
+.t1 {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.t2 {
+  color: rgb(70, 70, 70);
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.comprar {
+  background-color: white;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.titulo {
+  display: flex;
+  color: white;
+  font-weight: 700;
+  background-color: rgb(27, 26, 26);
+  border-radius: 10px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  padding: 12px;
+  justify-content: space-between;
+}
+
+.carrinho {
+  width: 12px;
+}
+
+.lote {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  font-weight: 700;
+  gap: 2px;
+}
+
+.descricao {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 300px;
+}
+
+.mapa {
+  border-radius: 10px;
+}
