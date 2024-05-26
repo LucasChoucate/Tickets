@@ -75,23 +75,43 @@ main {
   font-size: 20px;
 }
 
+.t1-1 {
+  font-size: 14px;
+}
+
 .t2 {
   color: rgb(70, 70, 70);
   font-weight: 500;
   font-size: 16px;
 }
 
+.t2-2 {
+  color: rgb(70, 70, 70);
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.t3 {
+  color: white;
+  background-color: rgb(1, 223, 67);
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 6px;
+}
+
 .comprar {
   background-color: white;
   width: 100%;
   border-radius: 10px;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.45);
 }
 
 .titulo {
   display: flex;
   color: white;
   font-weight: 700;
-  background-color: rgb(27, 26, 26);
+  background-color: rgb(76, 87, 108);
   border-radius: 10px;
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
@@ -103,6 +123,12 @@ main {
   width: 12px;
 }
 
+.geral {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .lote {
   font-size: 14px;
   display: flex;
@@ -110,6 +136,11 @@ main {
   padding: 8px;
   font-weight: 700;
   gap: 2px;
+}
+
+.lote1 {
+  display: flex;
+  padding: 8px;
 }
 
 .descricao {
